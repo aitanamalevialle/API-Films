@@ -8,7 +8,7 @@ require("dotenv").config();
 
 // ===== INITIALISATION DU SERVEUR
 const app = express();
-const port = process.env.port || 5000;
+const port = process.env.port || 5001;
 
 app.use(cors());
 app.use(express.json());
